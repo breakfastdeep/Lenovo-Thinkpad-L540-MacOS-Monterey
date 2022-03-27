@@ -11,7 +11,7 @@
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-blue)](https://github.com/acidanthera/OpenCorePkg)
 [![License](https://img.shields.io/badge/license-MIT-purple)](/LICENSE)
 
-<p align="center">
+<p align="left">
    <strong>Status: Maintained</strong>
    <br />
    <strong>Version: </strong>1.0.0
