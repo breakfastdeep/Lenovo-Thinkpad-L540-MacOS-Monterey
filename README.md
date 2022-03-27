@@ -73,7 +73,7 @@ These are the Hardware component I use. But this OpenCore configuation **should 
 | GPU       | Intel HD Graphics 4600               |
 | SSD       | Trendmicro M2 SSD 240GB               |
 | SSD       | Samsung EVO SSD 240GB               |
-| SSD       | Intenso SSD PLUS 240GB               |
+| SSD       | Intenso SSD 240GB               |
 | Memory    | 8GB DDR3 1600Mhz                     |
 | Camera    | 720p Camera                          |
 | WiFi & BT | Intel Wireless-N 7260                |
