@@ -1,5 +1,5 @@
-# L540-Monterey
-macOS Monterey for Thinkpad L540
+# macOS Monterey on Lenovo Thinkpad L540 
+
 
 # Lenovo ThinkPad L540 - OpenCore Configuation
 
@@ -25,7 +25,7 @@ macOS Monterey for Thinkpad L540
 </br>
 
 ## ⚠️ Disclaimer
-This guide is only for the Lenovo ThinkPad TL540. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
+This guide is only for the Lenovo ThinkPad L540. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
 
 
 ## Introduction
@@ -38,9 +38,6 @@ This guide is only for the Lenovo ThinkPad TL540. I am NOT responsible for any h
 
 The Version 1.7.0 changes the model from ```MacBookPro12,1``` to ```MacBookPro11,4```. You need to generate a new SMBIOS for the new model with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS).
 
-**Dualbooting**
-
-If you want to dualboot / multiboot your L540 with Windows or Linux, do **not** use OpenCore as bootloader! You need to use the efi boot menu in order to boot Windows or Linux. Legacy boot is not supported!
 
 The reason: **ACPI Patches**
 
@@ -289,7 +286,7 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [X] Handoff / Universal Clipboard
 - [X] Sidecar (Cable) / AirPlay to Mac
 - [X] SIP / FireVault 2
-- [X] Hot Keys via YOGASMC (need to download YogaSMCPane)
+- [X] Hotkeys via YOGASMC (need to download YogaSMCPane)
 
 
 </details>
@@ -303,7 +300,6 @@ After creating the install media, copy your EFI folder to the EFI partition of y
 - [ ] VGA
 - [ ] Sleep with Docking Station
 - [ ] Realtek Card Reader ``` it works but shows a warning on statusbar because of unsigned class``` 
-- [ ] Brightness key on macOS 12.3. ```It works on older versions.```
 
 </details>
 
@@ -325,15 +321,10 @@ Did you find any bugs or just have some questions? Feel free to provide your fee
 This repo is licensed under the [MIT License](https://github.com/valnoxy/t440p-oc/blob/main/LICENSE).
 
 The following files are licensed under the [MIT License](https://github.com/valnoxy/t440p-oc/blob/main/LICENSE):
-- SSDT-ADPT ```(Power Resources for Wake)```
+- FixShutdown-USB-SSDT ```(Fixing the Shutdown/Sleep Problems of USB```
 - SSDT-ALS0 ```(Fake ambient light sensor)```
-- SSDT-BATX ```(Battery driver)```
-- SSDT-DEHCI ```(Disable EHCI controller)```
 - SSDT-ECRW ```(ACPI driver for OEM hardware (YogaSMC))```
 - SSDT-HPET ```(IRQ Conflicts fix (Needs _CRS to XCRS Rename))```
-- SSDT-KBD ```(Brightness patch)```
-- SSDT-LED ```(LED and Power Button blink patch)```
-- SSDT-MCHC ```(AppleSMBus fix)```
 - SSDT-PLUG ```(Plugin type to 1 for CPU0/PR00)```
 - SSDT-PNLF ```(PNLF device for WhateverGreen)```
 - SSDT-THINK ```(ThinkVPC (YogaSMC))```
