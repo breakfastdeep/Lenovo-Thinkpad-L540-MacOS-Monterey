@@ -3,7 +3,7 @@ macOS Monterey for Thinkpad L540
 
 # Lenovo ThinkPad L540 - OpenCore Configuation
 
-<img align="right" src="https://www.directupload.net/file/d/6500/pkdr33wt_jpg.htm" alt="macOS Monterey running on the L540" width="300">
+<img align="right" src="https://user-images.githubusercontent.com/69075167/160275522-296f6454-cea5-4831-99a9-97289d769a9a.jpg" alt="macOS Monterey running on the L540" width="300">
 
 [![macOS](https://img.shields.io/badge/macOS-Monterey-brightgreen.svg)](https://developer.apple.com/documentation/macos-release-notes)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.9-blue)](https://github.com/acidanthera/OpenCorePkg)
