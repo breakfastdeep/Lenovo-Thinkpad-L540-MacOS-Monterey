@@ -1,5 +1,7 @@
 # macOS Monterey on Lenovo Thinkpad L540 
 
+<img align="center" src="https://user-images.githubusercontent.com/69075167/160294481-bdc4d1c7-1e0d-4c2d-bf86-251f9851dd9a.png" alt="OpenCore Bootmenu on L540" width="300">
+
 
 # Lenovo ThinkPad L540 - OpenCore Configuation
 
